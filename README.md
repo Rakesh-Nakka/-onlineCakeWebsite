@@ -24,5 +24,4 @@ Welcome to the **Online Cake Shop** – a sleek and user-friendly web applicatio
 
 ---
 
-## 📁 Project Structure
 
