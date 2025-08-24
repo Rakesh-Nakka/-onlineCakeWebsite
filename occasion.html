@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .slide img{
+        position: absolute;
+        width: 80%;  
+        overflow-x: hidden;
+        animation: slide 16s ease-in infinite;  
+           
+    }
+    #s1{
+        animation-delay: 0s;
+    }
+    #s2{
+        animation-delay: 4s;
+    }
+    #s3{
+        animation-delay: 8s;
+    }
+    #s4{
+        animation-delay: 12s;
+    }
+    
+    .slide{
+         margin: auto;
+    }
+    @keyframes slide{
+        100%{
+            right: 100%;
+        }
+    }
+</style>
+<body>    
+    <div class="slide">
+         <img src="slide_photos/ganesh_image.avif" alt="ganesh_image" id="s1" >
+         <img src="slide_photos/slide1.avif" alt="slide" id="s2">
+         <img src="slide_photos/slide2.avif" alt="slide" id="s3">
+          <img src="slide_photos/slide3.avif" alt="slide" id="s4">
+    </div>
+</body>
+</html>
