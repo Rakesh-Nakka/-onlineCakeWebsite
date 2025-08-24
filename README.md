@@ -1,6 +1,6 @@
-# -onlineCakeWebsite
-
 # 🎂 Online Cake Shop Website
+
+
 
 Welcome to the **Online Cake Shop** – a sleek and user-friendly web application that allows users to browse, select, and order delicious cakes online. Built entirely with **HTML**, **CSS**, and **JavaScript**, this project showcases a responsive and visually appealing interface ideal for a bakery or cake business.
 
